@@ -1,0 +1,161 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image:url(../images/main_bg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#wrapper {
+    width: 1000px;
+    min-height: 780px;
+    margin: auto;
+}
+#wrapper #header{
+    height:150px;
+    background-image: url('../images/steve-jobs-face.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#wrapper #header  img{
+    height:150px;
+    width: 250px;
+    float: left;
+}
+#wrapper #header #header_left img{
+    height:150px;
+    width: 750px;
+    float: right;
+}
+#wrapper #header h1{
+    font-size:35px;
+    color:#FFFFCC;
+}
+#wrapper #menu {
+    height: 50px;
+    background-color: #000000;
+    margin-bottom: 20px;
+}
+#wrapper #menu ul {
+    list-style-type: none;
+}
+#wrapper #menu ul li{
+    float:left;
+    width: 200px;
+    text-align: center;
+}
+#wrapper #menu ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 40px;
+}
+#wrapper #menu ul li a:hover{
+    color:#FFFF99;
+}
+#wrapper #content {
+    min-height: 780px;
+    overflow:hidden;
+    
+}
+#wrapper #content #content_right {
+    width: 620px;
+    min-height: 560px;
+    float: right;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background-color:#FFFFFF;
+}
+#wrapper #content #content_right h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+
+#wrapper #content #content_right h3{
+    font-size: 20px;
+    margin-bottom:5px;
+}
+#wrapper #content #content_right h4{
+    font-size: 20px;
+    margin-bottom:5px;
+}
+#wrapper #content #content_right p img{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#wrapper #content #content_right p {
+    text-align:justify;
+    margin-bottom: 10px;
+}
+#wrapper #content #content_left {
+    width: 270px;
+    min-height: 560px;
+    float: left;
+  
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+#wrapper #content #content_left h2{
+    color:#FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    background-color: #000000;
+    padding: 5px;
+}
+#wrapper #content #content_left h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#wrapper #content #content_left h4 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#wrapper #content #content_profile h2{
+   font-size: 20px;
+   text-align: center;
+   background-color: #000000;
+   width: 320px;
+   color: #FFFFFF;
+   padding: 5px;
+}
+#wrapper #content #content_profile #proleft {
+    float: left;
+    background-color:#FFFFFF;
+    text-align: justify;
+    font-size: 10px;
+    width: 330px;
+    margin-bottom: 20px;
+}    
+#wrapper #content #content_profile #proleft img{
+    width: 160px;
+    height: auto;
+    float: left;
+
+}
+#wrapper #content #content_profile #proright img{
+    margin-bottom: 20px;
+    width: 330px;
+
+}
+#wrapper #footer {
+    height: 50px;
+    font-size: 18px;
+    color:#000000;
+    padding-left: 20px;
+    line-height: 50px;
+    text-align: center;
+}
